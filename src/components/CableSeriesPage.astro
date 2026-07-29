@@ -61,7 +61,7 @@ const chargingSpecs =
       <img
         src={series.heroImage}
         alt={series.title}
-        class="mx-auto h-full object-cover rounded-3xl shadow-lg transition duration-300 hover:scale-105"
+        class="mx-auto w-full max-w-xl"
       />
 
     </div>
@@ -104,10 +104,10 @@ const chargingSpecs =
     </h2>
 
     <p class="mt-3 text-gray-600">
-      Select the connector type best suited for your requirements.
+      Find the connector type best suited for your requirements.
     </p>
 
-    <div class="mt-10 grid gap-8 md:grid-cols-2">
+    <div class="mt-6 flex items-center justify-between">
 
       {
         series.variants.map((item: Variant) => (
@@ -117,7 +117,7 @@ const chargingSpecs =
             <img
               src={item.image}
               alt={item.name}
-              class="mx-auto h-full object-cover rounded-2xl transition duration-300 hover:scale-105"
+              class="mx-auto h-72 object-contain transition duration-300 group-hover:scale-105"
             />
 
             <h3 class="mt-6 text-2xl font-bold">
