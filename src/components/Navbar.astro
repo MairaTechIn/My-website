@@ -1,38 +1,123 @@
 <header class="sticky top-0 z-50 border-b border-gray-200 bg-white/90 backdrop-blur">
+
   <div class="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
 
-    <a href="/" class="flex items-center gap-3">
+    <!-- Logo -->
+    <a href="/" class="flex items-center gap-1">
 
       <img
         src="/images/mairalogo.png"
         alt="Maira Tech"
-        class="h-20 w-auto"
+        class="h-16 w-auto md:h-20"
       />
 
-      <span class="text-xl font-semibold tracking-wide">
+      <span class="text-lg font-semibold tracking-wide md:text-xl">
         MAIRA TECH
       </span>
 
     </a>
 
+    <!-- Desktop Navigation -->
     <nav class="hidden items-center gap-8 md:flex">
 
-  <a href="/">Home</a>
+      <a href="/" class="transition hover:text-gray-500">
+        Home
+      </a>
 
-  <a href="#products">Products</a>
+      <a href="#products" class="transition hover:text-gray-500">
+        Products
+      </a>
 
-  <a href="#about">About</a>
+      <a href="#about" class="transition hover:text-gray-500">
+        About
+      </a>
 
-  <a href="#contact">Contact</a>
+      <a href="#contact" class="transition hover:text-gray-500">
+        Contact
+      </a>
 
-</nav>
+    </nav>
+
+    <!-- Right Side -->
+    <div class="flex items-center gap-3">
+
+      <a
+        href="#contact"
+        class="rounded-xl bg-black px-3 py-2 text-white transition hover:bg-gray-800"
+      >
+        Get Quote
+      </a>
+
+      <!-- Mobile Menu Button -->
+      <button
+        id="menu-btn"
+        class="flex h-11 w-11 items-center justify-center rounded-xl border border-gray-300 md:hidden"
+        aria-label="Toggle Menu"
+      >
+        ☰
+      </button>
+
+    </div>
+
+  </div>
+
+  <!-- Mobile Navigation -->
+  <div
+    id="mobile-menu"
+    class="hidden border-t border-gray-200 bg-white md:hidden"
+  >
 
     <a
-      href="/contact"
-      class="rounded-xl bg-black px-5 py-3 text-white transition hover:bg-gray-800"
+      href="/"
+      class="block px-6 py-4 hover:bg-gray-50"
     >
-      Get Quote
+      Home
+    </a>
+
+    <a
+      href="#products"
+      class="block px-6 py-4 hover:bg-gray-50"
+    >
+      Products
+    </a>
+
+    <a
+      href="#about"
+      class="block px-6 py-4 hover:bg-gray-50"
+    >
+      About
+    </a>
+
+    <a
+      href="#contact"
+      class="block px-6 py-4 hover:bg-gray-50"
+    >
+      Contact
     </a>
 
   </div>
+
 </header>
+
+<script>
+  const menuBtn = document.getElementById("menu-btn");
+  const mobileMenu = document.getElementById("mobile-menu");
+
+  if (menuBtn && mobileMenu) {
+    menuBtn.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+
+      menuBtn.textContent = mobileMenu.classList.contains("hidden")
+        ? "☰"
+        : "✕";
+    });
+
+    // Close the menu when a link is clicked
+    document.querySelectorAll("#mobile-menu a").forEach((link) => {
+      link.addEventListener("click", () => {
+        mobileMenu.classList.add("hidden");
+        menuBtn.textContent = "☰";
+      });
+    });
+  }
+</script>
