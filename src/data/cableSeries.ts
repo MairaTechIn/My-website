@@ -21,7 +21,7 @@ export const cableSeries = [
     lengths: [
         "1 Meter"
         ],
-    current: "3A",
+    current: "2.1A",
     colors: [
             {
             name: "White",
@@ -39,7 +39,7 @@ export const cableSeries = [
         lengths: [
         "1 Meter"
         ],
-        current: "2.4A",
+        current: "2.1A",
         colors: [
             {
                 name: "White",
