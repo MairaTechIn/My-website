@@ -1,5 +1,5 @@
 ---
-import "../styles/global.css";
+import Layout from "../layouts/Layout.astro";
 
 import Navbar from "../components/Navbar.astro";
 import Hero from "../components/Hero.astro";
@@ -7,44 +7,24 @@ import Products from "../components/Products.astro";
 import WhyChooseUs from "../components/WhyChooseUs.astro";
 import ContactCTA from "../components/ContactCTA.astro";
 import Footer from "../components/Footer.astro";
-import Layout from "../layouts/Layout.astro";
 ---
 
-<html lang="en">
-  <head>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<Layout title="Maira Tech Industry">
 
-    <link
-    href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
-    rel="stylesheet">
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Maira Tech Industry</title>
+  <Navbar />
 
-    <meta
-      name="description"
-      content="Maira Tech Industry manufactures premium data cables, chargers, plastic components and OEM electronic products."
-    />
-  </head>
+  <main>
 
-  <body>
+    <Hero />
 
-    <Navbar />
+    <Products />
 
-    <main>
+    <WhyChooseUs />
 
-      <Hero />
+    <ContactCTA />
 
-      <Products />
+  </main>
 
-      <WhyChooseUs />
+  <Footer />
 
-	  <ContactCTA />
-
-
-    </main>
-	<Footer />
-	<Layout />
-  </body>
-</html>
+</Layout>

@@ -1,0 +1,23 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import Navbar from "../../../components/Navbar.astro";
+import Footer from "../../../components/Footer.astro";
+
+import CableSeriesPage from "../../../components/CableSeriesPage.astro";
+
+import { cableSeries } from "../../../data/cableSeries";
+
+const series = cableSeries.find(
+  (item) => item.slug === "standard-series"
+);
+---
+
+<Layout title="Standard Series | Maira Tech">
+
+  <Navbar />
+
+  <CableSeriesPage series={series} />
+
+  <Footer />
+
+</Layout>
