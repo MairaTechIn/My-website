@@ -1,8 +1,20 @@
-<section id="contact" class="py-24">
+---
+---
+<dialog
+  id="contactModal"
+  class="backdrop:bg-black/60 rounded-3xl p-0 border-0 w-[95%] max-w-5xl"
+>
 
-  <div class="mx-auto max-w-6xl px-6">
+  <div class="relative bg-white rounded-3xl overflow-hidden">
 
-    <div class="rounded-3xl bg-black px-8 py-16 text-center text-white md:px-12">
+    <button
+      onclick="document.getElementById('contactModal').close()"
+      class="absolute right-5 top-5 z-20 flex h-10 w-10 items-center justify-center rounded-full bg-white shadow hover:bg-gray-100"
+    >
+      ✕
+    </button>
+
+    <section class="bg-black px-8 py-16 text-center text-white md:px-12">
 
       <h2 class="text-4xl font-bold md:text-5xl">
         Ready to Work With Maira Tech?
@@ -14,7 +26,6 @@
       </p>
 
       <div class="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-
 
         <a
           href="tel:+919996783717"
@@ -140,10 +151,34 @@
           </p>
         </a>
 
+
       </div>
 
-    </div>
+    </section>
 
   </div>
 
-</section>
+</dialog>
+
+<script>
+  const dialog = document.getElementById("contactModal") as HTMLDialogElement;
+
+  function openContactModal() {
+    dialog.showModal();
+  }
+
+  function closeContactModal() {
+    dialog.close();
+  }
+
+  document.addEventListener("click", (e) => {
+    const target = e.target;
+
+    if (
+      target instanceof HTMLElement &&
+      target.closest(".open-contact-modal")
+    ) {
+      openContactModal();
+    }
+  });
+</script>

@@ -1,4 +1,9 @@
+
+
 ---
+
+import ContactModal from "../components/ContactModal.astro";
+
 interface Color {
   name: string;
   value: string;
@@ -50,6 +55,8 @@ const chargingSpecs =
     (spec: Specification) => spec.property === "Charging Specs"
   )?.value as ChargingSpec[]) ?? [];
 ---
+
+
 <main class="mx-auto max-w-7xl px-6 py-20">
 
   <!-- Hero -->
@@ -265,8 +272,13 @@ const chargingSpecs =
 
   <p class="mt-8 text-center text-sm text-gray-500">
         Need more than <span class="font-semibold text-gray-900">200 pieces?</span><br>
-        <a href="#contact" class="font-semibold text-black underline underline-offset-4 hover:text-gray-700">Contact us </a>
-        for custom wholesale pricing.
+        <button
+          type="button"
+          
+          class="open-contact-modal font-semibold text-black underline underline-offset-4 hover:text-gray-700"
+        >
+          Contact us </button>
+          <span> </span>for custom wholesale pricing.
   </p>
 
 </section>
@@ -359,4 +371,6 @@ const chargingSpecs =
 
 </section>
 <br><br><br><br><br><br><br><br><br><br>
+
+<ContactModal />
 </main>
