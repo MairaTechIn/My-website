@@ -10,7 +10,7 @@ export const cableSeries = [
     description:
         "Reliable charging and data transfer cables for everyday use.",
 
-    startingPrice: 25,
+    startingPrice: 20,
 
     variants: [
 
@@ -28,8 +28,8 @@ export const cableSeries = [
             value: "#ffffff"
             }
         ],
-    image: "/images/products/standardtypec.png",       
-    price: 25
+    image: ["/images/products/standardtypec.png"],       
+    price: 20
     },
 
     {
@@ -46,8 +46,8 @@ export const cableSeries = [
                 value: "#ffffff"
             }
         ],
-        image: "/images/products/standardmicrousb.jpeg",
-        price: 25
+        image: ["/images/products/standardmicrousb.jpeg"],
+        price: 20
     }
 
 ],
@@ -115,7 +115,7 @@ export const cableSeries = [
 
     title: "Golf Series",
 
-    heroImage: "/images/products/golfusbtocandip.png",
+    heroImage: "/images/products/golfdesign.png",
 
     description:
         "Premium golf design cables engineered for faster charging, reliable data transfer, and enhanced durability.",
@@ -142,7 +142,10 @@ export const cableSeries = [
             value: "#ff0000"
             },
         ],
-    image: "/images/products/USBTOCCOrrect.png",       
+    image: [
+        "/images/products/USBTOCCOrrect.png",
+        "/images/products/golfredusbtoc.png",
+    ],       
     price: 57
     },
 
@@ -164,7 +167,10 @@ export const cableSeries = [
             value: "#ff0000"
             },
         ],
-        image: "/images/products/USBtoIPcorrect.jpeg",
+        image: [
+            "/images/products/USBtoIPcorrect.png",
+            "/images/products/golfredusbtoip.png",
+        ],
         price: 57
     }
 
@@ -240,7 +246,7 @@ export const cableSeries = [
 
     title: "Golf Premium Series",
 
-    heroImage: "/images/products/ctocandip.png",
+    heroImage: "/images/products/golfdesign.png",
 
     description:
         "Premium golf design cables engineered for faster charging, reliable data transfer, and enhanced durability.",
@@ -263,7 +269,7 @@ export const cableSeries = [
             value: "#ffffff"
             }
         ],
-    image: "/images/products/CtoCtypeCorrect.png",       
+    image: ["/images/products/CtoCtypeCorrect.png"],       
     price: 61
     },
 
@@ -281,7 +287,7 @@ export const cableSeries = [
                 value: "#ffffff"
             }
         ],
-        image: "/images/products/CtoIphonecorrect.png",
+        image: ["/images/products/CtoIphonecorrect.png"],
         price: 61
     }
 
@@ -303,6 +309,143 @@ export const cableSeries = [
                     {
                         property: "Connector",
                         value: "USB-C to Type-C or Lightning (iPhone)"
+                    },
+                    {
+                        property: "Charging Specs",
+                        value: [
+                        {
+                            voltage: "5V",
+                            current: ["3.0A", " / ", "3.1A"," / ", "5A"],
+                            wattage: ["15W", " / ", "15.5W", " / ", "25W"],
+                            useCase: "Standard Phone Charging"
+                        },
+                        {
+                            voltage: "9V",
+                            current: ["3.0A", " / ", "3.1A"," / ", "5A"],
+                            wattage: ["27W", " / ", "27.9W", " / ", "45W"],
+                            useCase: "Quick Charging"
+                        },
+                        {
+                            voltage: "12V",
+                            current: ["3.0A", " / ", "3.1A"," / ", "5A"],
+                            wattage: ["36W", " / ", "37.2W", " / ", "60W"],
+                            useCase: "Fast Charging tablets / routers"
+                        },
+
+                        {
+                            voltage: "15V",
+                            current: ["3.0A", " / ", "3.1A"," / ", "5A"],
+                            wattage: ["45W", " / ", "46.5W", " / ", "75W"],
+                            useCase: "Tablets / Laptops"
+                        },
+                        {
+                            voltage: "20V",
+                            current: ["3.0A", " / ", "3.1A"," / ", "5A"],
+                            wattage: ["60W", " / ", "62W", " / ", "100W"],
+                            useCase: "Macbooks / Laptops"
+                        }
+                        ]
+                    },
+                    {
+                        property: "Warranty",
+                        value: "6 Months"
+                    },
+                    {
+                        property: "Material",
+                        value: "PVC"
+                    }
+                    ]
+
+}, 
+
+{
+    slug: "plain-series",
+
+    title: "Plain Series",
+
+    heroImage: "/images/products/coffeedesign.png",
+
+    description:
+    "Premium plain design cables engineered for faster charging, reliable data transfer, and enhanced durability. Multiple color options available.",
+
+    startingPrice: 44,
+
+    variants: [
+
+    {
+    id: "usb-a-to-type-c",
+    name: "USB-A to Type-C",
+    connector: "Type-C",
+    lengths: [
+        "1 Meter", 
+        ],
+    current: ["3.1A", [" or "], ["5A"]],
+    colors: [
+            {
+            name: "White",
+            value: "#ffffff"
+            },
+            {name: "Coffee Tint",
+            value: "#E8E1D3"
+            },
+            {name: "Red",
+            value: "#ff0000"
+            }
+        ],
+    image: [
+        "/images/products/coffeeplainusbtoc.png",
+        "/images/products/whiteplainusbtoc.png",
+        "/images/products/redplainusbtoc.png"
+    ],       
+    price: 44
+    },
+
+    {
+        id: "usb-a-to-lightning",
+        name: "USB-A to Lightning (iPhone)",
+        connector: "Lighning",
+        lengths: [
+        "1 Meter"
+        ],
+        current: "3A",
+        colors: [
+            {
+                name: "White",
+                value: "#ffffff"
+            },
+            {name: "Coffee Tint",
+            value: "#E8E1D3"
+            },
+            {name: "Red",
+            value: "#ff0000"
+            }
+        ],
+        image: [
+            "/images/products/coffeeplainusbtoip.png",
+            "/images/products/whiteplainusbtoip.png",
+            "/images/products/redplainusbtoip.png"
+        ],
+        price: 44
+    }
+
+],
+
+    pricing: [
+
+        { qty: "1–5", price: 52 },
+
+        { qty: "6–20", price: 49 },
+
+        { qty: "21–50", price: 47 },
+
+        { qty: "51-200", price: 44 }
+
+    ],
+
+    specifications: [
+                    {
+                        property: "Connector",
+                        value: "USB-A to Type-C or Lightning (iPhone)"
                     },
                     {
                         property: "Charging Specs",
