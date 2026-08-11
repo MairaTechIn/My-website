@@ -163,9 +163,7 @@ import WarrantyContent from "../../content/policies/warranty.md";
 
   <Footer />
 
-</Layout>
-
-<script type="module">
+  <script type="module">
   import html2pdf from "html2pdf.js";
 
   const button = document.getElementById("download-pdf");
@@ -179,22 +177,48 @@ import WarrantyContent from "../../content/policies/warranty.md";
       return;
     }
 
-    html2pdf(element, {
-      margin: 10,
-      filename: "Maira-Tech-Warranty-Policy.pdf",
-      image: {
+    html2pdf()
+    .from(element)
+    .set({
+        margin: 10,
+        filename: "Maira-Tech-Warranty-Policy.pdf",
+        pagebreak: {
+            mode: ["avoid-all", "css", "legacy"]
+        },
+        image: {
         type: "jpeg",
         quality: 1
-      },
-      html2canvas: {
-        scale: 2
-      },
-      jsPDF: {
+        },
+        html2canvas: {
+            scale: 2,
+            onclone: (doc) => {
+                doc.querySelectorAll("*").forEach((el) => {
+                const style = getComputedStyle(el);
+
+                if (style.color.includes("oklch")) {
+                    el.style.color = "#000000";
+                }
+
+                if (style.backgroundColor.includes("oklch")) {
+                    el.style.backgroundColor = "#ffffff";
+                }
+
+                if (style.borderColor.includes("oklch")) {
+                    el.style.borderColor = "#d1d5db";
+                }
+                });
+            }
+            },
+        jsPDF: {
         unit: "mm",
         format: "a4",
         orientation: "portrait"
-      }
-    });
+        }
+    })
+    .save();
 
   });
 </script>
+
+</Layout>
+
