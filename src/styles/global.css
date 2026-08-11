@@ -43,3 +43,50 @@ dialog {
   }
 }
 
+.prose h2 {
+  @apply mt-14 mb-6 text-3xl font-bold border-b border-gray-200 pb-3;
+}
+
+.prose h3 {
+  @apply mt-8 mb-3 text-xl font-semibold;
+}
+
+.prose p {
+  @apply my-4 leading-8;
+}
+
+.prose ul {
+  @apply my-5 space-y-2;
+}
+
+.prose li {
+  @apply leading-7;
+}
+
+.prose table {
+  @apply my-8 w-full overflow-hidden rounded-xl;
+}
+
+.prose table thead {
+  @apply bg-gray-100;
+}
+
+.prose table th {
+  @apply px-5 py-4 text-left font-semibold;
+}
+
+.prose table td {
+  @apply border-t px-5 py-4;
+}
+
+.prose blockquote {
+  @apply my-8 rounded-xl border-l-4 border-black bg-gray-50 px-6 py-4 not-italic;
+}
+
+.prose hr {
+  @apply my-12 border-gray-200;
+}
+
+.prose strong {
+  @apply font-semibold text-black;
+}

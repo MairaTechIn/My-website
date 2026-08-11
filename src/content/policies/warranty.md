@@ -1,115 +1,134 @@
----
-title: "Warranty & Return Policy"
-description: "6-Month Limited Warranty for Maira Tech Industry products."
-lastUpdated: "August 2026"
----
-
 # Warranty & Return Policy
 
-**Effective Date:** August 2026
+Maira Tech Industry is committed to delivering reliable, high-quality electronic accessories. This Warranty & Return Policy explains the warranty coverage, replacement process, return conditions and customer responsibilities for eligible products.
+
+> **Effective Date:** August 2026  
+> **Warranty Period:** 6 Months  
+> **Coverage:** Manufacturing Defects Only
+
+---
+
+## Warranty Summary
+
+| Item | Details |
+|------|---------|
+| Warranty Period | **6 Months** |
+| Coverage | Manufacturing Defects Only |
+| Resolution | Product Replacement |
+| Refund After Shipment | Not Available |
+| DOA Reporting | Within **48 Hours** |
+| Applicable Products | Eligible Maira Tech Charging & Data Cables |
+
+> **Important**
+>
+> The warranty covers **manufacturing defects only**. Physical damage, accidental damage, misuse, liquid damage and normal wear & tear are **not covered** under warranty.
 
 ---
 
 ## 1. Limited Warranty
 
-Maira Tech Industry provides a **6-Month Limited Warranty** on all eligible charging and data cable products purchased from us or our authorized dealers.
+Maira Tech Industry provides a **6-Month Limited Warranty** on eligible charging and data cable products purchased directly from us or through our authorized dealers and distributors.
 
-This warranty covers manufacturing defects only and applies to both retail customers and authorized dealers/distributors.
+This warranty covers defects in **materials and workmanship** that occur under normal use during the warranty period.
 
----
-
-## 2. What Is Covered
-
-During the warranty period, we will replace the product if it develops any manufacturing defect such as:
-
-- Charging failure
-- Data transfer failure
-- Loose connector due to manufacturing defect
-- Internal wire failure
-- Product not functioning under normal usage
-- Manufacturing defects in materials or workmanship
-
-Replacement is provided only after verification by Maira Tech Industry.
+All warranty claims are subject to inspection and approval by Maira Tech Industry.
 
 ---
 
-## 3. What Is Not Covered
+## 2. Warranty Coverage
 
-The warranty does not cover damage caused by:
+The following manufacturing defects are covered:
 
-- Physical damage
-- Broken connectors
-- Bent pins
-- Cuts or torn cable insulation
-- Burn marks
-- Water or liquid damage
-- Fire damage
-- Accidental damage
-- Improper handling
-- Misuse or abuse
-- Unauthorized modification or repair
-- Damage caused by incompatible chargers or devices
-- Normal wear and tear
-- Cosmetic scratches or discoloration
+- ✅ Charging failure
+- ✅ Data transfer failure
+- ✅ Internal wire failure
+- ✅ Loose connector caused by manufacturing defects
+- ✅ Product not functioning during normal use
+- ✅ Manufacturing defects in materials or workmanship
 
-Products intentionally damaged to obtain warranty service will not be accepted.
+Once verified, an eligible product will be replaced in accordance with this policy.
+
+---
+
+## 3. What's Not Covered
+
+Warranty does **not** cover damage resulting from:
+
+- ❌ Physical damage
+- ❌ Broken connectors
+- ❌ Bent connector pins
+- ❌ Torn cable insulation
+- ❌ Water or liquid damage
+- ❌ Fire damage
+- ❌ Burn marks
+- ❌ Accidental damage
+- ❌ Improper handling
+- ❌ Misuse or abuse
+- ❌ Unauthorized repair or modification
+- ❌ Damage caused by incompatible chargers or devices
+- ❌ Normal wear and tear
+- ❌ Cosmetic scratches or discoloration
+
+Claims involving intentional damage or fraudulent activity will not be accepted.
 
 ---
 
 ## 4. Warranty Claim Process
 
-To submit a warranty claim, customers should provide:
+To submit a warranty claim, please provide:
 
-- Clear video showing the defect
-- Photo of the product
-- Photo of the packaging label
-- Invoice or Order ID (if available)
-- Customer name and contact details
+- 📹 Clear video demonstrating the defect
+- 📷 Product photographs
+- 📦 Packaging label photograph
+- 🧾 Invoice or Order ID (if available)
+- 👤 Customer name and contact details
 
-Warranty verification may require additional information where necessary.
+Additional information may be requested where necessary to complete verification.
 
 ---
 
 ## 5. Replacement Policy
 
-Approved warranty claims are eligible for **product replacement only**.
+Approved warranty claims are eligible for **Product Replacement Only**.
 
-Refunds are **not** provided after the order has been shipped.
+Refunds are **not available** once an order has been dispatched.
 
-Replacement products may be:
+Where applicable, Maira Tech Industry may provide:
 
-- Same model
-- Equivalent model
-- Latest compatible replacement if the original product is discontinued
+- Same product model
+- Equivalent replacement model
+- Latest compatible model if the original product has been discontinued
 
 ---
 
-## 6. Return & Refund Policy
+## 6. Returns & Refunds
 
 ### Before Shipment
 
-Customers may cancel an order before dispatch and receive a full refund.
+Orders cancelled before dispatch are eligible for a full refund.
 
 ### After Shipment
 
-Orders cannot be cancelled once dispatched.
+Orders cannot be cancelled after dispatch.
 
-Customers may request a warranty replacement if the product qualifies under the warranty terms.
+If the product qualifies under the warranty terms, a replacement may be issued after successful verification.
 
 ---
 
 ## 7. Dead on Arrival (DOA)
 
-If a product arrives damaged or non-functional, customers must notify us within **48 hours** of delivery by providing:
+Products received damaged or non-functional must be reported within **48 hours** of delivery.
 
-- Unboxing video
-- Photo of packaging
-- Photo of shipping label
-- Product images
+Please provide:
 
-After verification, customers may receive:
+- 📹 Unboxing video
+- 📷 Product photographs
+- 📦 Packaging photographs
+- 🚚 Shipping label photograph
 
-- Replacement
+Following verification, Maira Tech Industry may provide:
+
+- Replacement product
 - Refund (where applicable)
 
 ---
@@ -120,20 +139,22 @@ Responsibility for return shipping depends on the nature of the claim.
 
 Examples include:
 
-- Manufacturing defect verified by Maira Tech Industry
-- Customer error
-- Courier damage
-- Wrong product supplied
+| Situation | Responsibility |
+|-----------|----------------|
+| Verified Manufacturing Defect | Determined by Maira Tech Industry |
+| Customer Error | Customer |
+| Courier Damage | Determined after verification |
+| Wrong Product Supplied | Maira Tech Industry |
 
-Shipping responsibility will be communicated during the claim process.
+Shipping responsibility will always be communicated during the warranty process.
 
 ---
 
-## 9. Bulk Orders & OEM Orders
+## 9. Bulk Orders & OEM Products
 
-Bulk purchases, custom branding, OEM products and private label orders may have separate warranty terms.
+Bulk purchases, OEM products, custom-branded products and private label orders may have separate warranty terms.
 
-Customized products are generally **non-returnable and non-refundable** unless found defective due to manufacturing faults.
+Customized products are generally **non-returnable and non-refundable** unless a verified manufacturing defect is found.
 
 ---
 
@@ -141,26 +162,28 @@ Customized products are generally **non-returnable and non-refundable** unless f
 
 Maira Tech Industry reserves the right to reject warranty claims involving:
 
-- False information
-- Edited or manipulated videos/photos
+- False or misleading information
+- Edited or manipulated photographs or videos
 - Intentional product damage
 - Missing required documentation
+- Abuse of the warranty process
 
 ---
 
 ## 11. Limitation of Liability
 
-Maira Tech Industry shall not be liable for:
+To the maximum extent permitted by applicable law, Maira Tech Industry shall not be liable for:
 
 - Loss of business
 - Loss of profits
+- Loss of revenue
 - Loss of data
 - Damage to connected devices
-- Indirect, incidental or consequential damages arising from the use of our products.
+- Indirect, incidental or consequential damages arising from the use of our products
 
 ---
 
-## 12. Contact Us
+## Contact Us
 
 **Maira Tech Industry**
 
@@ -169,10 +192,18 @@ DD Colony, Kurukshetra
 Haryana 136118  
 India
 
-**Phone:** +91 99967 83717
+**☎ Phone**  
++91 99967 83717
 
-**Email:** mairatechindustry@gmail.com
+**✉ Email**  
+mairatechindustry@gmail.com
 
-**Website:** https://mairatechindustry.in
+**🌐 Website**  
+https://mairatechindustry.in
 
-**GSTIN:** 06CYDPP5973N1ZN
+**🧾 GSTIN**  
+06CYDPP5973N1ZN
+
+---
+
+*Last Updated: August 2026*
