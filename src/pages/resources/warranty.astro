@@ -178,44 +178,98 @@ import WarrantyContent from "../../content/policies/warranty.md";
     }
 
     html2pdf()
-    .from(element)
-    .set({
-        margin: 10,
-        filename: "Maira-Tech-Warranty-Policy.pdf",
-        pagebreak: {
-            mode: ["avoid-all", "css", "legacy"]
-        },
-        image: {
-        type: "jpeg",
-        quality: 1
-        },
-        html2canvas: {
-            scale: 2,
+        .from(element)
+        .set({
+
+          // PDF filename
+          filename: "Maira-Tech-Warranty-Policy.pdf",
+
+          // A4 Margins (Top, Left, Bottom, Right)
+          margin: [12, 12, 15, 12],
+
+          // Prevent bad page breaks
+          pagebreak: {
+            mode: ["avoid-all", "css", "legacy"],
+            avoid: [
+              "h1",
+              "h2",
+              "h3",
+              "table",
+              "tr",
+              "blockquote",
+              "ul",
+              "ol",
+              ".rounded-3xl"
+            ]
+          },
+
+          // Highest quality image
+          image: {
+            type: "jpeg",
+            quality: 1
+          },
+
+          html2canvas: {
+
+            scale: 3,
+
+            useCORS: true,
+
+            allowTaint: true,
+
+            logging: false,
+
+            backgroundColor: "#ffffff",
+
+            scrollX: 0,
+            scrollY: 0,
+
             onclone: (doc) => {
-                doc.querySelectorAll("*").forEach((el) => {
+
+              // Remove animations
+              doc.querySelectorAll("*").forEach((el) => {
+
                 const style = getComputedStyle(el);
 
+                el.style.transition = "none";
+                el.style.animation = "none";
+
                 if (style.color.includes("oklch")) {
-                    el.style.color = "#000000";
+                  el.style.color = "#000000";
                 }
 
                 if (style.backgroundColor.includes("oklch")) {
-                    el.style.backgroundColor = "#ffffff";
+                  el.style.backgroundColor = "#ffffff";
                 }
 
                 if (style.borderColor.includes("oklch")) {
-                    el.style.borderColor = "#d1d5db";
+                  el.style.borderColor = "#d1d5db";
                 }
-                });
+
+              });
+
             }
-            },
-        jsPDF: {
-        unit: "mm",
-        format: "a4",
-        orientation: "portrait"
-        }
-    })
-    .save();
+
+          },
+
+          jsPDF: {
+
+            unit: "mm",
+
+            format: "a4",
+
+            orientation: "portrait",
+
+            compress: true,
+
+            precision: 16,
+
+            putOnlyUsedFonts: true
+
+          }
+
+        })
+        .save();
 
   });
 </script>
